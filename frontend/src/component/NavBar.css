@@ -1,0 +1,97 @@
+/* NavBar */
+
+.nav-bar {
+  height: 78px;
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4rem;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: #fff;
+}
+.nav-bar h2 {
+  font-size: 48px;
+}
+
+.nav-bag {
+  display: flex;
+  align-items: center;
+}
+
+.bag-quantity {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25px;
+  width: 25px;
+  background: yellow;
+  border-radius: 50%;
+  font-size: 14px;
+  font-weight: 700;
+  color: black;
+  margin-left: 5px;
+}
+
+/* Not found */
+/* .not-found {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb (86, 68, 68);
+  min-height: 80vh;
+}
+
+.not-found h2 {
+  font-size: 55px;
+}
+
+.not-found p {
+  font-size: 20px;
+} */
+
+.sideMenu {
+  width: 30px;
+  height: 30px;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.sideMenu > div {
+  width: 100%;
+  height: 3px;
+  background: #f4f4f4;
+}
+
+.sideMenu:hover > div {
+  background: #dd219e;
+}
+
+ @media (max-width: 960) {
+  .nav-bag,
+  .nav-quantity,
+  .menu__link,
+  .cart__link,
+  .about__link
+
+   {
+    display: none;
+  }
+
+  .sideMenu {
+    display: flex;
+  } 
+
+  .nav-bar h2 {
+    font-size: 25px;
+  }
+ }
+
+ 
+ 
